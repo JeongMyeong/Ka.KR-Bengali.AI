@@ -5,7 +5,7 @@
 ### 대회의 흐름
 ```data load``` -> ```resize & image processing``` -> ```reshape``` -> ```model load```-> ```predict```
 
-### 사용해본 모델
+### 사용해본 모델 [이미지 분류 모델 모음](https://github.com/qubvel/classification_models.git)
 #### se-resnext50
 
 
@@ -39,6 +39,7 @@ for batch in range(0, X_test.shape[0], batch_size):
 gc.collect()
 ```
 
-#### 02.14 ~ 02.18
+### 02.14 ~ 02.18
 - baseline 와 beginner 위주의 커널들을 보면서 데이터를 처리하는 흐름을 읽음
-- baseline 커널을 
+- baseline 커널을 수정하여 제출까지 완료 (score : 0.9290)
+- 
