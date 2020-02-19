@@ -1,9 +1,12 @@
 # Bengali.AI Handwritten Grapheme Classification
 - [대회 주소](https://www.kaggle.com/c/bengaliai-cv19)
 
-
 ### 대회의 흐름
 ```data load``` -> ```resize & image processing``` -> ```reshape``` -> ```model load```-> ```predict```
+### 참고하기 좋은 자료
+- [분류모델](https://github.com/qubvel/classification_models.git)
+- [대회관련정보](https://bengali.ai/wp-content/uploads/CV19-COCO-Grapheme.pdf)
+- [Best Single Model](https://www.kaggle.com/c/bengaliai-cv19/discussion/123198)
 
 ### 사용해본 모델 [이미지 분류 모델 모음](https://github.com/qubvel/classification_models.git)
 - se-resnext50
