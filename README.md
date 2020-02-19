@@ -42,4 +42,5 @@ gc.collect()
 ### 02.14 ~ 02.18
 - baseline 와 beginner 위주의 커널들을 보면서 데이터를 처리하는 흐름을 읽음
 - baseline 커널을 수정하여 제출까지 완료 (score : 0.9290)
+[](https://github.com/JeongMyeong/Ka.KR-Bengali.AI/blob/master/fig/se-resnext50-24epoch-loss%20graph.png)
 - 
