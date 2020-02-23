@@ -27,7 +27,7 @@ import gc
 del a
 gc.collect()
 ```
-- 커널 대회이다 보니 제출을 하면 숨겨진 test data를 커널 흐름에 따라 전처리되고 추론이 되는데 이 과정에서 "Submission Scoring Error", "Notebook Exceeded Allowed Compute" 결과를 보였지만 이는 모두 out of memory 문제였음. 이 또한 위와 비슷하게 이미지 전처리 과정에서 N개의 이미지가 전처리될 때 마다 ```gc.collect()```를 해주니 효과가 있었음.
+- 커널 대회이다 보니 제출을 하면 숨겨진 test data를 커널 흐름에 따라 전처리되고 추론이 되는데 이 과정에서 "Submission Scoring Error", "Notebook Exceeded Allowed Compute" 결과를 보였지만 이는 모두 out of memory 문제였음. 이 또한 위와 비슷하게 이미지 전처리 과정에서 ```N```개의 이미지가 전처리될 때 마다 ```gc.collect()```를 해주니 효과가 있었음.
 ```
 if cnt%N == 0:
     gc.collect()
