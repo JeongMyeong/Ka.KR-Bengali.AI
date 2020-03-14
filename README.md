@@ -1,6 +1,9 @@
 # Bengali.AI Handwritten Grapheme Classification
 - [대회 주소](https://www.kaggle.com/c/bengaliai-cv19)
 
+#### ★
+- Team Merge를 통해 팀 참여를 하려고 했지만 팀원과의 소통이 부족하여 Merge를 못해 Solo로 참가하였습니다.
+
 ### 대회의 흐름
 ```data load``` -> ```resize & image processing``` -> ```reshape``` -> ```model load```-> ```predict```
 ### 참고하기 좋은 자료
