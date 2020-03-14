@@ -49,3 +49,9 @@ gc.collect()
 - baseline 와 beginner 위주의 커널들을 보면서 데이터를 처리하는 흐름을 읽음
 - baseline 커널을 수정하여 제출까지 완료 (score : 0.9290)
 ![](https://github.com/JeongMyeong/Ka.KR-Bengali.AI/blob/master/fig/se-resnext50-24epoch-loss%20graph.png)
+
+### 02.18 ~~
+- baseline을 수정하여 validation set에 대해 ```grapheme_root``` 96.5% ```vowel_diacritic``` 99.4% ```consonant_diacritic```  99.5% 정확도를 달성.
+- 제출을 통해 리더보드에서 socre 96.31% 를 달성.
+- mixup, cutoff 기법이 효과가 있던것으로 생각되지만 자세한 처리방법은 모르고 공개된자료를 통해 적용을 시키기만함.
+- grapheme_root의 분류갯수가 168개로 아주 많다. grapheme_root 의 정확도에따라 LB Socore 도 상승하는 것으로 생각된다.
